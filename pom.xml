@@ -20,7 +20,8 @@
     <parent>
         <groupId>io.confluent</groupId>
         <artifactId>common</artifactId>
-        <version>6.0.0</version>
+        <version>7.1.0-0</version>
+        <relativePath>../common/parent</relativePath>
     </parent>
 
     <groupId>io.confluent</groupId>
@@ -258,7 +259,7 @@
                 <configuration>
                     <compilerArgs>
                         <arg>-Xlint:all</arg>
-                        <arg>-Werror</arg>
+<!--                        <arg>-Werror</arg>-->
                     </compilerArgs>
                 </configuration>
             </plugin>
